@@ -15,7 +15,6 @@ body {
 
 .btnOrangeMini {
   width:100%;
-  /* max-width: 200px; */
   background: #E67E22;
   color: white;
   padding: 10px !important;
@@ -40,7 +39,6 @@ body {
 
 .BtnSubmit {
   width:20%;
-  /* max-width: 200px; */
   background: #E67E22;
   color: white;
   padding: 8px !important;
@@ -55,6 +53,9 @@ body {
   cursor: pointer;
   
   transition: 0.4s;
+}
+.BtnSubmit:disabled{
+  background-color: gray;
 }
 
 .BtnSubmit:hover {
