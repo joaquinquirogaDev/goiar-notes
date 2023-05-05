@@ -114,7 +114,7 @@ const List = ({ note }: Props) => {
                         disabled={((ITEMS_PER_PAGE * page) > note.length)}
                         onClick={() => setPage(page + 1)}
                     >
-                        siguiente
+                        Siguiente
                     </button>
                 </div>
             </>
